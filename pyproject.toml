@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=user_data_utils --cov-report=term-missing"
